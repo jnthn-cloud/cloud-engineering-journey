@@ -1,6 +1,6 @@
 # Cloud Engineering Journey
 
-Documenting my path from CS graduate to Cloud Engineer.
+Documenting my path from Comsci graduate to Cloud Engineer.
 
 ## Progress
 - Day 1-2: Linux fundamentals, Bash scripting, cron automation
