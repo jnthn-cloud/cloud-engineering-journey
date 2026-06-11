@@ -1,3 +1,4 @@
+import boto3
 import psutil
 import datetime
 import subprocess
@@ -124,5 +125,16 @@ with open(log_file, "w") as f:
     json.dump(log_data, f, indent=2)
 
 print("Log saved: " + log_file)
+
+s3 = boto3.client('s3')
+bucket_name = "jnthn-cloud-journey-2026"
+
+try:
+  s3.upload_file(log_file, bucket_name, "health_log.json")
+  print(GREEN + "Uploaded to S3: " + bucket_name + RESET)
+
+except Exception as e:
+  print(RED + "S3 upload failed: " + str(e) + RESET)
+
 
 print("================================")
