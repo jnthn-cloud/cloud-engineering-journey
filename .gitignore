@@ -3,3 +3,8 @@ __pycache__/
 .env
 *.log
 aws-credentials*
+
+*.pem
+.env
+*credentials*
+ec2-details*

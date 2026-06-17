@@ -50,4 +50,20 @@
 - Script now auto-uploads JSON logs to cloud on every run
 - Learned: boto3 client, try/except error handling
 
-## Day 7 — (EC2 deployment)
+## Day 7 — (EC2 Deployed)
+- Ran the full pipeline end to end.
+- took a refresher quiz about everything so far hahaha
+
+## Day 8 - (Deployed the monitor to cloud)
+- Created key pair for SSH access
+- Created security group (ports 22, 80 open)
+- Launched t3.micro EC2 instance (free tier)
+- SSH'd into real cloud server in Singapore
+- Created IAM Role (cloud-journey-ec2-role) with S3 access
+- Attached IAM role to EC2 - no keys stored on server!
+- Cloned GitHub repo onto EC2
+- Deployed system_monitor.py to EC2
+- Automated with cron (runs every hour)
+- Learned: least privilege principle in action
+
+## Day 9 - Apache on EC2, web dashboard, User Data scripts
