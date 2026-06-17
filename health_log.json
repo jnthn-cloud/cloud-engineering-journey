@@ -73,5 +73,20 @@
     "network_recv_mb": 739.8,
     "apache_status": "active",
     "alerts": []
+  },
+  {
+    "timestamp": "2026-06-11 17:12:13",
+    "cpu_percent": 11.1,
+    "cpu_cores": 4,
+    "memory_used_gb": 3.2,
+    "memory_total_gb": 7.7,
+    "memory_percent": 52.2,
+    "disk_used_gb": 25.1,
+    "disk_total_gb": 491.1,
+    "disk_percent": 5.4,
+    "network_sent_mb": 162.3,
+    "network_recv_mb": 759.0,
+    "apache_status": "active",
+    "alerts": []
   }
 ]
