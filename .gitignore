@@ -8,3 +8,10 @@ aws-credentials*
 .env
 *credentials*
 ec2-details*
+
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
