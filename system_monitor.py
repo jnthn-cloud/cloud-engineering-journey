@@ -111,7 +111,7 @@ entry = {
 }
 
 # Load existing log or start fresh
-log_file = os.path.expanduser("~/cloud_journey/health_log.json")
+log_file = os.path.expanduser("~/cloud-engineering-journey/health_log.json")
 
 if os.path.exists(log_file):
     with open(log_file, "r") as f:

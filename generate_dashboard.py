@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 # Load health log
-log_file = "/home/ubuntu/cloud-engineering-journey/health_log.json"
+log_file = os.path.expanduser("~/cloud-engineering-journey/health_log.json")
 
 with open(log_file, "r") as f:
     log_data = json.load(f)
