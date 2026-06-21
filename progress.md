@@ -1,11 +1,11 @@
 # Cloud Engineer Journey — gloki
 
-## Day 1 ✅
+## Day 1 
 - Explored system info (uname, df, free, ps, ip addr)
 - Learned Linux service management (systemctl)
 - Discovered Apache2 and LXC already installed
 
-## Day 2 ✅
+## Day 2 
 - Read Apache access logs
 - Built system_health.sh monitoring script
 - Debugged smart quotes and IPv6 issues
@@ -67,3 +67,30 @@
 - Learned: least privilege principle in action
 
 ## Day 9 - Apache on EC2, web dashboard, User Data scripts
+- Install apache on ec2
+- created a dashboard for system_monitor.py
+- dashboard live at public ip
+- Auto-refreshes every 60 seconds in browser
+- Updated CRON to run monitor + dashboard together every hour
+- Transferred the dashboard to laptop via scp
+- Learned: f-strings, negative indexing log_data[-1], scp file transfer
+
+
+## Day 10 
+- Installed Terraform v1.15.6
+- Created variables.tf, main.tf, outputs.tf
+- Learned: provider, resource, variables, outputs, tags
+- terraform init → plan → apply → destroy
+- Deployed 2 resources (EC2 + Security Group) with one command
+- Learned: .tfstate file, (known after apply), ManagedBy tags
+
+## Day 11 
+- Created user_data.sh — server auto-configures on boot
+- Added IAM Role + Policy + Instance Profile to Terraform
+- Full 5-resource stack deployed with terraform apply
+- Server self-configured: Apache, Python, boto3, repo clone, cron
+- Dashboard live automatically — zero manual SSH steps
+- Fixed log file path bug — committed to GitHub
+- Clean terraform destroy — all 5 resources removed
+
+## Next: Day 12 — GitHub Actions CI/CD pipeline
