@@ -101,7 +101,7 @@ html = f"""<!DOCTYPE html>
 </head>
 <body>
     <h1>🖥️ Cloud Journey Monitor</h1>
-    <p class="subtitle">EC2 Instance — ap-southeast-1 (Singapore) | Auto-refreshes every 60s</p>
+    <p class="subtitle">EC2 Instance — ap-southeast-1 (Singapore) | CI/CD by GitHub Actions ⚡</p>
 
     <div class="grid">
         <div class="card">
