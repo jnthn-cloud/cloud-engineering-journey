@@ -94,3 +94,22 @@
 - Clean terraform destroy — all 5 resources removed
 
 ## Next: Day 12 — GitHub Actions CI/CD pipeline
+- Created .github/workflows/deploy.yml
+- Set up GitHub Secrets (EC2_HOST, EC2_SSH_KEY)
+- CI/CD pipeline auto-deploys on every git push to main
+- Fixed merge conflict — git reset --hard in deploy script
+- Added health_log.json to .gitignore
+- Tested end-to-end: push code → dashboard auto-updates
+- Learned: YAML, GitHub Actions, workflows, secrets, CI/CD concepts
+
+## Next: Day 13 — AWS Cloud Practitioner exam prep
+- Studied all 4 CLF-C02 exam domains
+- Cloud Concepts: 6 benefits, IaaS/PaaS/SaaS, deployment models
+- Security: Shared Responsibility Model, IAM concepts, security services
+- Technology: Compute, Storage, Networking, Database services
+- Billing: Pricing models, billing tools, support plans, global infrastructure
+- Quiz score: 11/12 (92%)
+- Weak area: IaaS vs PaaS distinction
+- Next: AWS Skill Builder course + practice exams
+
+## Next: Day 14 — Week 2 review + mock interview questions
