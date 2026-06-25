@@ -111,5 +111,6 @@
 - Quiz score: 11/12 (92%)
 - Weak area: IaaS vs PaaS distinction
 - Next: AWS Skill Builder course + practice exams
-
+- added EIP/ Dont forget to release the eip when EC2 stopped long-term
+ 
 ## Next: Day 14 — Week 2 review + mock interview questions
