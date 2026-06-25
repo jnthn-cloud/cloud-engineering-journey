@@ -101,7 +101,7 @@ html = f"""<!DOCTYPE html>
 </head>
 <body>
     <h1>🖥️ Cloud Journey Monitor</h1>
-    <p class="subtitle">EC2 Instance — ap-southeast-1 (Singapore) | CI/CD by GitHub Actions ⚡</p>
+    <p class="subtitle">EC2 Instance — ap-southeast-1 (Singapore) | EIP: 54.255.143.200 ⚡</p>
 
     <div class="grid">
         <div class="card">
