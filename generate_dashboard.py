@@ -100,7 +100,7 @@ html = f"""<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <h1>🖥️ Cloud Journey Monitor</h1>
+    <h1>🖥️  Cloud System Monitor</h1>
     <p class="subtitle">EC2 Instance — ap-southeast-1 (Singapore) | EIP: 54.255.143.200 ⚡</p>
 
     <div class="grid">
