@@ -114,3 +114,10 @@
 - added EIP/ Dont forget to release the eip when EC2 stopped long-term
  
 ## Next: Day 14 — Week 2 review + mock interview questions
+Completed full mock interview session
+- Refined elevator pitch — natural and technical
+- Practiced 5 interview questions
+- Overall score: 9.2/10
+- Strong areas: IAM explanation, CI/CD debugging story, 2-year plan
+- Area to improve: Debug scenarios — think network→service→app→data
+- Key lesson: Specific details = credibility in interviews
