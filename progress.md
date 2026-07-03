@@ -93,7 +93,7 @@
 - Fixed log file path bug — committed to GitHub
 - Clean terraform destroy — all 5 resources removed
 
-## Next: Day 12 — GitHub Actions CI/CD pipeline
+## Day 12 — GitHub Actions CI/CD pipeline
 - Created .github/workflows/deploy.yml
 - Set up GitHub Secrets (EC2_HOST, EC2_SSH_KEY)
 - CI/CD pipeline auto-deploys on every git push to main
@@ -102,7 +102,7 @@
 - Tested end-to-end: push code → dashboard auto-updates
 - Learned: YAML, GitHub Actions, workflows, secrets, CI/CD concepts
 
-## Next: Day 13 — AWS Cloud Practitioner exam prep
+## Day 13 — AWS Cloud Practitioner exam prep
 - Studied all 4 CLF-C02 exam domains
 - Cloud Concepts: 6 benefits, IaaS/PaaS/SaaS, deployment models
 - Security: Shared Responsibility Model, IAM concepts, security services
@@ -113,7 +113,7 @@
 - Next: AWS Skill Builder course + practice exams
 - added EIP/ Dont forget to release the eip when EC2 stopped long-term
  
-## Next: Day 14 — Week 2 review + mock interview questions
+## Day 14 — Week 2 review + mock interview questions
 Completed full mock interview session
 - Refined elevator pitch — natural and technical
 - Practiced 5 interview questions
@@ -121,3 +121,15 @@ Completed full mock interview session
 - Strong areas: IAM explanation, CI/CD debugging story, 2-year plan
 - Area to improve: Debug scenarios — think network→service→app→data
 - Key lesson: Specific details = credibility in interviews
+
+## Day 15 - Installed and used docker on system monitor
+ Installed Docker on EC2
+- Created Dockerfile and requirements.txt
+- Built cloud-monitor:latest image (258MB)
+- Container collects metrics and uploads to S3 via IAM role
+- Fixed log file path using os.path.abspath(__file__)
+- Learned: image vs container, FROM/WORKDIR/COPY/RUN/CMD
+- Learned: docker build, run, ps, logs, images commands
+- Detached mode (-d) vs foreground mode
+- Short-lived vs long-running containers 
+
